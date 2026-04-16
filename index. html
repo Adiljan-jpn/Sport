@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello</title>
+  </head>
+  <body>
+    <h2 style="color:red">Спорт основа жизни</h2>
+    <p onclick="toggletext(this)">Если хочешь узнать про спорт то нажми на меня</p>
+    <img src="https://i.postimg.cc/63rYBw75/360-F-667310818-DTnqo-Nokt-IUAHSrvop1o-KS9k1Wgj-HFTP.jpg" width="500">
+    <img src="https://i.postimg.cc/k4ZsNc2z/istockphoto-1826720781-612x612.jpg" width="500">
+    <img src="https://i.postimg.cc/BvPXLBfk/set-athletes-different-sports-vector-illustration-613011-210.jpg" width="500">
+    <style>h2{text-align:center}</style>
+    <script>function toggletext(element) {if (element.innerHTML==="Если хочешь узнать про спорт то нажми на меня"){element.innerHTML ="Для кого-то спорт может являтся лишь словом,но для многих спорт это великое искусство, которое помогает людям каждый день. Для человека в настоящее время спорт необходим особенно с нынешним оброзом жизни людей которые работают в офисах.На 2025 год в Казахстане спортом занимаются 8,4млн людей что составляет 41,4% от населения Казахстана."} else {element.innerHTML="Если хочешь узнать про спорт то нажми на меня"}}</script>
+  </body>
+</html>
